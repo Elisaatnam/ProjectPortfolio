@@ -85,7 +85,7 @@ p, h3, h4, article a {
 }
 
 
-/* section 1 - Orbis */
+/* section 1 & 3 - Orbis & Galito's */
 
 #orbis {
     height: 100vh;
@@ -96,103 +96,6 @@ p, h3, h4, article a {
     padding-top: 11.5vw;
 }
 
-#orbis p {
-    font-size: 2.3rem;
-    color: var(--hellgrau);
-    margin-bottom: 1.47vh;
-    letter-spacing: -5%;
-}
-
-#orbis h2 {
-    font-family: Didact, sans-serif;
-    font-size: 11.2rem;
-    text-transform: uppercase;
-    font-weight: lighter;
-    margin-bottom: 2.9vh;
-}
-
-#orbis h3 {
-    font-size: 2rem;
-    color: var(--hellgrau);
-    margin-bottom: 10vh;
-}
-
-#orbis .number {
-    font-family: Fjalla, sans-serif;
-    font-size: 16.5rem;
-    margin-left: 60vw;
-    color: #9e9e9e6b;
-}
-
-#orbis a {
-    color: white;
-}
-
-#orbis a:hover {
-    background-color: white;
-    border-color: white;
-    color:black;
-}
-
-#orbis a:hover ~ .number{
-    color: white;
-}
-
-/* section 2 - rollr */
-
-#rollr {
-    height: 120vh;
-    background: url(./img/portfolio3.png) center no-repeat;
-    background-size: cover;
-    color: black;
-    padding-left: 15.5vw;
-    padding-top: 11.5vw;
-}
-
-#rollr p {
-    font-size: 2.3rem;
-    color: var(--mittelgrau);
-    margin-bottom: 1.47vh;
-    letter-spacing: -5%;
-}
-
-#rollr h2 {
-    font-family: Didact, sans-serif;
-    font-size: 11.2rem;
-    text-transform: uppercase;
-    font-weight: lighter;
-    margin-bottom: 2.9vh;
-}
-
-#rollr h3 {
-    font-size: 2rem;
-    color: var(--mittelgrau);
-    margin-bottom: 10vh;
-}
-
-#rollr .number {
-    font-family: Fjalla, sans-serif;
-    font-size: 16.5rem;
-    margin-left: 60vw;
-    color: #666666cd;
-}
-
-#rollr a {
-    color: black;
-}
-
-#rollr a:hover {
-    background-color: black;
-    border-color: black;
-    color: white;
-}
-
-#rollr a:hover ~ .number{
-    color: black;
-}
-
-/* section 3 - Galito's */
-
 #galitos {
     height: 100vh;
     background: url(./img/portfolio4.jpg) center no-repeat;
@@ -202,14 +105,14 @@ p, h3, h4, article a {
     padding-top: 11.5vw;
 }
 
-#galitos p {
+#orbis p, #galitos p {
     font-size: 2.3rem;
     color: var(--hellgrau);
     margin-bottom: 1.47vh;
     letter-spacing: -5%;
 }
 
-#galitos h2 {
+#orbis h2, #galitos h2 {
     font-family: Didact, sans-serif;
     font-size: 11.2rem;
     text-transform: uppercase;
@@ -217,52 +120,60 @@ p, h3, h4, article a {
     margin-bottom: 2.9vh;
 }
 
-#galitos h3{
+#orbis h3, #galitos h3 {
     font-size: 2rem;
     color: var(--hellgrau);
     margin-bottom: 10vh;
 }
 
-#galitos .number {
+#orbis .number, #galitos .number {
     font-family: Fjalla, sans-serif;
     font-size: 16.5rem;
     margin-left: 60vw;
     color: #9e9e9e6b;
 }
 
-#galitos a {
+#orbis a, #galitos a {
     color: white;
 }
 
-#galitos a:hover {
+#orbis a:hover, #galitos a:hover {
     background-color: white;
     border-color: white;
     color:black;
 }
 
-#galitos a:hover ~ .number{
+#orbis a:hover ~ .number, #galitos a:hover ~ .number{
     color: white;
 }
 
-/* section 4 - tretto */
+/* section 2 & 4- rollr, tretto */
 
+#rollr  {
+    height: 120vh;
+    background: url(./img/portfolio3.png) center no-repeat;
+    background-size: cover;
+    color: black;
+    padding-left: 15.5vw;
+    padding-top: 15vw;
+}
 #tretto {
     height: 120vh;
     background: url(./img/portfolio5.png) center no-repeat;
     background-size: cover;
     color: black;
     padding-left: 15.5vw;
-    padding-top: 11.5vw;
+    padding-top: 15vw;
 }
 
-#tretto p {
+#rollr p, #tretto p {
     font-size: 2.3rem;
     color: var(--mittelgrau);
     margin-bottom: 1.47vh;
     letter-spacing: -5%;
 }
 
-#tretto h2 {
+#rollr h2, #tretto h2 {
     font-family: Didact, sans-serif;
     font-size: 11.2rem;
     text-transform: uppercase;
@@ -270,34 +181,33 @@ p, h3, h4, article a {
     margin-bottom: 2.9vh;
 }
 
-#tretto h3 {
+#rollr h3, #tretto h3 {
     font-size: 2rem;
     color: var(--mittelgrau);
     margin-bottom: 10vh;
 }
 
-#tretto .number {
+#rollr .number, #tretto .number {
     font-family: Fjalla, sans-serif;
     font-size: 16.5rem;
     margin-left: 60vw;
     color: #666666cd;
 }
 
-#tretto a {
+#rollr a, #tretto a {
     color: black;
 }
 
-#tretto a:hover {
+#rollr a:hover, #tretto a:hover {
     background-color: black;
     border-color: black;
     color: white;
 }
 
-#tretto a:hover ~ .number{
+#rollr a:hover ~ .number, #tretto a:hover ~ .number{
     color: black;
 }
 
-/* section - more */
 
 .more {
     height: 100vh;
